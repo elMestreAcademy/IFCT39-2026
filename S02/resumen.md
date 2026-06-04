@@ -2,10 +2,6 @@
 
 ## Notas y links
 
-### Glosario Ricardo
-
-[Glosario Ricardo](https://docs.google.com/document/d/1U-z1Tpf1642yGQuNww_1CWvqzJRhelYT)
-
 ### Links
 
 - [is-markdown-taking-over?](https://www.hendrik-erz.de/post/is-markdown-taking-over)
