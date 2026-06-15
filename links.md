@@ -35,6 +35,7 @@ Recopilación de todos los enlaces interesantes que han ido saliendo en las sesi
 
 - [Google Chrome](https://www.google.com/chrome)
 - [VS Code](https://code.visualstudio.com/)
+- [List of top 1200 CMS systems](https://gist.github.com/KathySmith/438b337a2a8317baf546) 
 
 ## SEO y keywords
 
