@@ -35,7 +35,10 @@ Recopilación de todos los enlaces interesantes que han ido saliendo en las sesi
 
 - [Google Chrome](https://www.google.com/chrome)
 - [VS Code](https://code.visualstudio.com/)
-- [List of top 1200 CMS systems](https://gist.github.com/KathySmith/438b337a2a8317baf546) 
+- [List of top 1200 CMS systems](https://gist.github.com/KathySmith/438b337a2a8317baf546)
+- [Site Kit by Google](sitekit.withgoogle.com])
+- [Google Analytics](analytics.google.com])
+- [Google Search Console](search.google.com/search-console])
 
 ## SEO y keywords
 
@@ -70,6 +73,7 @@ Recopilación de todos los enlaces interesantes que han ido saliendo en las sesi
 - [GEO: qué es y cómo posicionarte en ChatGPT, Gemini y Perplexity](https://www.youtube.com/watch?v=RHh5LpSfL80) (S01)
 - [What is GEO (Generative Engine Optimization)?](https://www.youtube.com/watch?v=Nf8z0vtIkMw) (S01)
 - [Canal de Jordi Maquiavello](https://www.youtube.com/@JordiMaquiavello) (S06)
+- [¿¿POR QUÉ TANTAS MEMORIAS??](https://www.youtube.com/watch?v=IwUq0RiUank)
 
 ## El caso YouTube: caída de ingresos y vistas (deberes del profe, S01)
 
