@@ -51,6 +51,7 @@ Recopilación de todos los enlaces interesantes que han ido saliendo en las sesi
 - [Yoast SEO - guía de inicio](https://yoast.com/help/) (S06)
 - [Editor Gutenberg (WordPress.org)](https://wordpress.org/documentation/article/wordpress-editor/) (S06)
 - [Estructura de URLs en WordPress (Yoast)](https://yoast.com/help/changing-the-url-structure/) (S06)
+-[Largest Contentful Paint](https://webenso.com/how-to-find-the-lcp-largest-contentful-paint-html-element/)
 
 ## Diseño web y color
 
@@ -66,6 +67,8 @@ Recopilación de todos los enlaces interesantes que han ido saliendo en las sesi
 - [La deuda técnica, uno de los mayores lastres de la agilidad](https://www.itmastersmag.com/transformacion-digital/la-deuda-tecnica-uno-de-los-mayores-lastres-de-la-agilidad/) (S01)
 - [Cuadrantes de deuda técnica (imagen)](https://www.scrumio.com/wp-content/uploads/2023/09/cuadrantes-de-deuda-tecnica.jpg) (S01)
 - [El algoritmo de X "For You" (código en GitHub)](https://github.com/xai-org/x-algorithm) (S01)
+- [Navigating Cookie Consent Violations
+Across the Globe](https://www.usenix.org/system/files/usenixsecurity25-tang.pdf)
 
 ## Vídeos
 
