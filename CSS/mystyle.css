@@ -1,0 +1,23 @@
+body {
+    color: purple;
+    background-color: #d8da3d
+}
+
+div {
+    color: brown;
+}
+
+h1 {
+    color: black;
+    background-color: white;
+}
+
+.publicidad {
+    color:blue;
+    border: solid 2px blue;
+    border-radius: 0.5rem;
+}
+
+#paquito {
+    color: aquamarine;
+}
