@@ -30,6 +30,7 @@ Recopilación de todos los enlaces interesantes que han ido saliendo en las sesi
 - [roadmap.sh](https://roadmap.sh/) y su [rama Frontend](https://roadmap.sh/frontend) - itinerarios de aprendizaje (S01, S02, S04)
 - [El DOM explicado (GeeksForGeeks)](https://www.geeksforgeeks.org/html/javascript-html-dom/) (S01, S04)
 - [Diagrama de etiquetas semánticas](https://cwh-full-next-space.fra1.cdn.digitaloceanspaces.com/tutorial/html-semantic-tags/semantic-tags.png) (S03)
+- [Tutorial de CSS Comenzando con HTML + CSS](https://www.w3.org/Style/Examples/011/firstcss.es.html)
 
 ## Herramientas de trabajo
 
