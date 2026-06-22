@@ -70,6 +70,7 @@ Recopilación de todos los enlaces interesantes que han ido saliendo en las sesi
 - [El algoritmo de X "For You" (código en GitHub)](https://github.com/xai-org/x-algorithm) (S01)
 - [Navigating Cookie Consent Violations
 Across the Globe](https://www.usenix.org/system/files/usenixsecurity25-tang.pdf)
+- [Steam Hardware Survey](https://store.steampowered.com/hwsurvey/Steam-Hardware-Software-Survey-Welcome-to-Steam)
 
 ## Vídeos
 

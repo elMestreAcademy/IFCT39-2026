@@ -8,7 +8,7 @@ Material del curso **IFCT39** del SEPE ([programa formativo oficial](https://sed
 
 ## Qué hay en este repositorio
 
--  [Programa formativo](Programa_formativo.md)            
+-  [Programa formativo](programa-formativo.md)            
 -  [Herramientas](herramientas.md)                        
 -  [Enlaces](links.md)                                    
 
@@ -22,6 +22,11 @@ Material del curso **IFCT39** del SEPE ([programa formativo oficial](https://sed
 | [S04](S04/) | Dominios, DNS, hosting y CMS                                    |
 | [S05](S05/) | Proyecto: idea, nicho y keywords                                |
 | [S06](S06/) | WordPress: panel, plugins, Yoast SEO y primer contenido         |
+| [S07](S07/) | SEO on-page formalizado, Search Console y landing en Gutenberg  |
+| [S08](S08/) | Finalizar el sitio y darlo de alta en Search Console            |
+| [S09](S09/) | Medición: GA4 y Search Console                                  |
+| [S10](S10/) | SEO técnico y velocidad                                         |
+| [S11](S11/) | Keyword research, contenido y GEO                               |
 
 ## Licencia
 

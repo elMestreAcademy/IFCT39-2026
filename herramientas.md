@@ -21,3 +21,20 @@
 ## Glosario Ricardo
 
 - [Glosario Ricardo](https://docs.google.com/document/d/1U-z1Tpf1642yGQuNww_1CWvqzJRhelYT)
+
+## FORMATOS DE Imagen
+
+### RECOMENDADOS 2026
+
+- Imagen compleja: PNG / webp
+- Imagen vecorizable: SVG
+
+### Remanentes
+
+- JPG
+- GIF
+
+### EVITAR
+
+- BMP
+- TIFF

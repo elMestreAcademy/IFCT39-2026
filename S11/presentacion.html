@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>presentacion.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="keyword-research-contenido-y-geo">Keyword research, contenido y GEO</h1>
+<p>Sesión S11</p>
+<hr>
+<h2 id="estado-esperado">Estado esperado</h2>
+<p>El sitio ya es visible, mide y carga mejor. Hoy toca decidir <strong>por qué búsquedas queremos aparecer</strong> y cómo convertir eso en páginas y contenidos útiles.</p>
+<p>Al finalizar conseguiremos:</p>
+<ul>
+<li>Un primer <strong>mapa de keywords</strong> por proyecto.</li>
+<li>Distinguir la <strong>intención de búsqueda</strong>.</li>
+<li>Traducir keywords a <strong>Landing, Servicios, FAQ o blog</strong>.</li>
+<li>Entender off-page, E-E-A-T y una primera capa de <strong>GEO</strong>.</li>
+</ul>
+<hr>
+<h2 id="requisitos-de-sesiones-anteriores">Requisitos de sesiones anteriores</h2>
+<ul>
+<li>El sitio por encima de 75 en móvil, o al menos medido y optimizado.</li>
+<li>La Landing y las páginas principales publicadas.</li>
+<li>Una lista de <strong>10-15 palabras o frases</strong> por las que querríamos aparecer.</li>
+</ul>
+<p>Si falta la lista, la sacamos hoy en clase.</p>
+<hr>
+<h2 id="la-idea-clave-del-d%C3%ADa">La idea clave del día</h2>
+<p>Una keyword no es una palabra bonita.</p>
+<p>Es la forma concreta en la que una persona expresa:</p>
+<ul>
+<li>Necesidad</li>
+<li>Duda</li>
+<li>Comparación</li>
+<li>Intención de compra</li>
+</ul>
+<p>No queremos atraer a cualquiera. Queremos atraer al visitante correcto.</p>
+<hr>
+<h2 id="intenci%C3%B3n-de-b%C3%BAsqueda">Intención de búsqueda</h2>
+<table>
+<thead>
+<tr>
+<th>Intención</th>
+<th>Qué busca la persona</th>
+<th>Ejemplo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Informacional</td>
+<td>Resolver una duda</td>
+<td><code>qué es una limpieza facial</code></td>
+</tr>
+<tr>
+<td>Navegacional</td>
+<td>Marca concreta</td>
+<td><code>clínica sonrisa clara</code></td>
+</tr>
+<tr>
+<td>Comercial</td>
+<td>Comparar opciones</td>
+<td><code>mejor hosting para wordpress</code></td>
+</tr>
+<tr>
+<td>Transaccional</td>
+<td>Contratar, comprar, cita</td>
+<td><code>abogado laboralista sevilla precio</code></td>
+</tr>
+</tbody>
+</table>
+<p>Si no acertamos la intención, la página no encaja aunque lleve la keyword.</p>
+<hr>
+<h2 id="lista-de-palabras---mapa">Lista de palabras -&gt; mapa</h2>
+<p>Pasos:</p>
+<ol>
+<li><strong>Limpiar</strong> duplicados y frases vagas.</li>
+<li><strong>Agrupar</strong> por tema o servicio.</li>
+<li>Elegir una <strong>keyword principal</strong> por grupo.</li>
+<li>Añadir secundarias y preguntas.</li>
+<li>Asociar cada grupo a una <strong>URL</strong>.</li>
+</ol>
+<p>Eso es un <strong>cluster</strong>.</p>
+<hr>
+<h2 id="ejemplo-de-cluster">Ejemplo de cluster</h2>
+<ul>
+<li><code>limpieza facial</code></li>
+<li><code>limpieza facial profunda</code></li>
+<li><code>limpieza facial valencia</code></li>
+<li><code>cuánto dura una limpieza facial</code></li>
+<li><code>precio limpieza facial</code></li>
+</ul>
+<p>No hacemos una página por cada frase.</p>
+<p>Hacemos <strong>una buena página por intención / tema</strong>.</p>
+<hr>
+<h2 id="ejemplo-de-cluster">Ejemplo de cluster</h2>
+<p>Un <strong>cluster</strong> es un grupo de contenidos o keywords relacionadas que atacan una misma intención de búsqueda. Imagina que tienes una empresa de soporte informático. Partes de esta <em>lista caótica</em>:</p>
+<ul>
+<li>Soporte informático empresas</li>
+<li>Mantenimiento ordenadores</li>
+<li>Soporte IT madrid</li>
+<li>Servicio técnico empresas</li>
+<li>Soporte remoto</li>
+<li>Ayuda informática pymes</li>
+<li>Cuánto cuesta soporte informático</li>
+<li>Contrato mantenimiento informático</li>
+</ul>
+<hr>
+<h2 id="paso-1-agrupar">Paso 1: Agrupar</h2>
+<table>
+<thead>
+<tr>
+<th>Grupos</th>
+<th>Ejemplo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Intención</strong></td>
+<td>Comprar, informarse, comparar, contratar</td>
+</tr>
+<tr>
+<td><strong>Tema</strong></td>
+<td>Soporte IT, ciberseguridad, backups</td>
+</tr>
+<tr>
+<td><strong>Problema del usuario</strong></td>
+<td>&quot;Ordenador lento&quot;, &quot;correo no funciona&quot;</td>
+</tr>
+<tr>
+<td><strong>Etapa del funnel</strong></td>
+<td>Descubrimiento, evaluación, decisión</td>
+</tr>
+<tr>
+<td><strong>Servicio/producto</strong></td>
+<td>Cada servicio suele ser un cluster</td>
+</tr>
+</tbody>
+</table>
+<h2 id="paso-2-elegir-keyword-principal-la-m%C3%A1s-representativa">Paso 2: Elegir keyword <strong>principal</strong>. La más representativa:</h2>
+<blockquote>
+<p>soporte informático para empresas</p>
+</blockquote>
+<hr>
+<h2 id="paso-3-a%C3%B1adir-secundarias">Paso 3: Añadir secundarias</h2>
+<ul>
+<li>Mantenimiento informático</li>
+<li>Soporte IT</li>
+<li>Soporte remoto empresas</li>
+<li>Ayuda informática pymes</li>
+<li>Servicio técnico empresas</li>
+</ul>
+<hr>
+<h2 id="paso-4-a%C3%B1adir-preguntas">Paso 4: Añadir preguntas</h2>
+<ul>
+<li>¿Cuánto cuesta un soporte informático?</li>
+<li>¿Qué incluye un contrato de mantenimiento?</li>
+<li>¿Cuándo externalizar el soporte IT?</li>
+</ul>
+<hr>
+<h3 id="paso-5-asociar-una-url">Paso 5: Asociar una URL</h3>
+<p><strong>Keyword principal</strong></p>
+<ul>
+<li>Soporte informático para empresas</li>
+</ul>
+<p><strong>URL / slug</strong></p>
+<p><code>/soporte-informatico-empresas</code></p>
+<p><strong>Secundarias</strong></p>
+<ul>
+<li>Mantenimiento informático</li>
+<li>Soporte remoto</li>
+<li>Soporte IT</li>
+</ul>
+<hr>
+<h2 id="ejemplo-visual">Ejemplo visual</h2>
+<p>Imagina un mapa mental:</p>
+<pre class="hljs"><code><div>Soporte informático para empresas
+│
+├── Mantenimiento informático
+├── Soporte remoto
+├── Soporte IT
+├── Servicio técnico empresas
+├── Precio soporte informático
+└── Contrato mantenimiento informático
+</div></code></pre>
+<p>Todo eso apunta a una misma página principal.</p>
+<hr>
+<h2 id="otro-ejemplo-cl%C3%ADnica-dental">Otro ejemplo: clínica dental</h2>
+<p>Lista inicial:</p>
+<ul>
+<li>Implantes dentales</li>
+<li>Precio implantes</li>
+<li>Implantes dentales madrid</li>
+<li>Cuánto dura un implante</li>
+<li>Implantes carga inmediata</li>
+<li>Tipos de implantes</li>
+</ul>
+<hr>
+<p><strong>Keyword principal:</strong></p>
+<p>Implantes dentales</p>
+<p><strong>Secundarias:</strong></p>
+<ul>
+<li>Precio implantes</li>
+<li>Tipos de implantes</li>
+<li>Implantes carga inmediata</li>
+</ul>
+<p><strong>Preguntas:</strong></p>
+<ul>
+<li>¿Cuánto duran?</li>
+<li>¿Duelen?</li>
+<li>¿Cuánto cuestan?</li>
+</ul>
+<p><strong>URL:</strong>
+<code>/implantes-dentales</code></p>
+<hr>
+<p>Google entiende mejor <strong>una página</strong> que cubre un <strong>tema completo</strong> que 20 páginas pequeñas compitiendo entre sí por búsquedas casi idénticas.</p>
+<ul>
+<li><a href="https://developers.google.com/search/docs">Google search docs</a></li>
+<li><a href="https://www.xictron.com/en/blog/content-cluster-seo-architektur-2026">Content Clusters vs. Single Pages: SEO</a></li>
+</ul>
+<p><strong>Keyword cannibalization</strong>
+<strong>Topical authority</strong></p>
+<hr>
+<h2 id="d%C3%B3nde-sacar-ideas-sin-pagar">Dónde sacar ideas sin pagar</h2>
+<ul>
+<li><strong>Google Autocomplete</strong></li>
+<li><strong>Trends</strong></li>
+<li><strong>Búsquedas relacionadas</strong></li>
+<li><strong>La gente también pregunta</strong></li>
+<li><strong>Search Console</strong> cuando ya haya datos</li>
+<li><strong>La competencia directa</strong></li>
+<li><strong>Las preguntas reales</strong> de clientes</li>
+</ul>
+<blockquote>
+<p>Muchas veces la mejor keyword sale de escuchar una duda repetida.</p>
+</blockquote>
+<hr>
+<h2 id="la-tabla-que-saldr%C3%A1-de-hoy">La tabla que saldrá de hoy</h2>
+<table>
+<thead>
+<tr>
+<th>Cluster / tema</th>
+<th>Principal</th>
+<th>Secundarias / preguntas</th>
+<th>Intención</th>
+<th>URL objetivo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Servicio 1</td>
+<td><code>fotografo bodas granada</code></td>
+<td>precio, reportaje, estilo</td>
+<td>Transaccional</td>
+<td>Landing de servicio</td>
+</tr>
+<tr>
+<td>Servicio 2</td>
+<td><code>sesion embarazo granada</code></td>
+<td>estudio, exterior, duración</td>
+<td>Comercial</td>
+<td>Página de servicio</td>
+</tr>
+<tr>
+<td>Duda 1</td>
+<td><code>qué ropa llevar a la sesión</code></td>
+<td>consejos, colores, ideas</td>
+<td>Informacional</td>
+<td>FAQ o artículo</td>
+</tr>
+</tbody>
+</table>
+<p>Objetivo: <strong>3-5 clusters por proyecto</strong>.</p>
+<hr>
+<h2 id="de-keywords-a-arquitectura">De keywords a arquitectura</h2>
+<ul>
+<li><strong>Home / Landing</strong>: propuesta general</li>
+<li><strong>Servicios</strong>: búsquedas comerciales o transaccionales</li>
+<li><strong>Sobre mí</strong>: confianza y autoridad</li>
+<li><strong>FAQ</strong>: objeciones y dudas repetidas</li>
+<li><strong>Blog</strong>: búsquedas informacionales</li>
+</ul>
+<p>Error clásico: intentar meter todo en la home.</p>
+<hr>
+<h2 id="qu%C3%A9-hace-que-una-p%C3%A1gina-posicione-mejor">Qué hace que una página posicione mejor</h2>
+<p>No es meter keywords a martillazos.</p>
+<p>Es resolver mejor la <strong>intención</strong>.</p>
+<p>Una buena página de servicio suele dejar claro:</p>
+<ul>
+<li>Qué ofreces,</li>
+<li>Para quién,</li>
+<li>Qué problema resuelves,</li>
+<li>Por qué confiar en ti,</li>
+<li>Qué acción quieres que haga el usuario.</li>
+</ul>
+<hr>
+<h1 id="off-page">Off-page</h1>
+<ul>
+<li>Enlaces desde otras webs,</li>
+<li>Menciones de marca,</li>
+<li>Directorios serios,</li>
+<li>Perfiles externos que aporten credibilidad.</li>
+</ul>
+<hr>
+<h1 id="e-e-a-t">E-E-A-T</h1>
+<ul>
+<li><strong>Experience</strong></li>
+<li><strong>Expertise</strong></li>
+<li><strong>Authoritativeness</strong></li>
+<li><strong>Trustworthiness</strong></li>
+</ul>
+<p>En un sitio pequeño se nota en señales de confianza concretas.</p>
+<hr>
+<h2 id="lo-pr%C3%A1ctico">Lo práctico</h2>
+<ul>
+<li>3-5 <strong>clusters</strong> por proyecto</li>
+<li>Una <strong>keyword principal</strong> por cluster</li>
+<li>Una <strong>intención</strong> por cluster</li>
+<li>Una <strong>página objetivo</strong> por cluster</li>
+<li>Un <strong>CTA</strong> claro por página</li>
+</ul>
+<hr>
+<h2 id="plantilla-m%C3%ADnima">Plantilla mínima</h2>
+<table>
+<thead>
+<tr>
+<th>Cluster</th>
+<th>Keyword principal</th>
+<th>Intención</th>
+<th>Página objetivo</th>
+<th>CTA</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td> </td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="se%C3%B1ales-pr%C3%A1cticas-de-confianza">Señales prácticas de confianza</h2>
+<ul>
+<li>Página <strong>Sobre mí</strong> bien trabajada</li>
+<li>Datos de contacto visibles</li>
+<li>Fotos propias</li>
+<li>Casos o testimonios reales</li>
+<li>Política de privacidad y aviso legal correctos</li>
+<li>Contenido concreto, no genérico</li>
+</ul>
+<blockquote>
+<p>Google y los usuarios premian lo <strong>creíble</strong>.</p>
+</blockquote>
+<hr>
+<h2 id="geo">GEO</h2>
+<p>Ahora no solo competimos por <strong>clics</strong>.</p>
+<p>También competimos por ser una <strong>fuente utilizable</strong> por ChatGPT, Gemini o Perplexity. Ayuda mucho:</p>
+<ul>
+<li>Estructura clara,</li>
+<li>Encabezados reales,</li>
+<li>Respuestas explícitas,</li>
+<li>Páginas bien delimitadas,</li>
+<li>Datos concretos,</li>
+<li>FAQs útiles.</li>
+</ul>
+<hr>
+<h2 id="chatgpt-gemini-y-perplexity">ChatGPT, Gemini y Perplexity</h2>
+<ul>
+<li><strong>Perplexity</strong> cita mucho: premia páginas claras y específicas.</li>
+<li><strong>Gemini</strong> hereda lógica del ecosistema Google.</li>
+<li><strong>ChatGPT</strong> también valora contenido útil, consistente y extraíble.</li>
+</ul>
+<p>No hay truco secreto. Hay que escribir mejor y más claro.</p>
+<hr>
+<h2 id="llmstxt"><code>llms.txt</code></h2>
+<p>Es una propuesta para dar a los modelos una guía rápida del sitio.</p>
+<h3 id="importante">Importante:</h3>
+<ul>
+<li><strong>No es obligatorio</strong>,</li>
+<li><strong>No garantiza</strong> posicionamiento**,</li>
+<li><strong>No sustituye</strong> al contenido real.</li>
+</ul>
+<p>Puede servir para resumir:</p>
+<ul>
+<li>Qué ofrece el sitio,</li>
+<li>Cuáles son las URLs clave,</li>
+<li>Y qué contenidos son importantes.</li>
+</ul>
+<hr>
+<h2 id="geo-en-la-pr%C3%A1ctica-3-acciones">GEO en la práctica: 3 acciones</h2>
+<p>Sobre una página real, hoy mismo:</p>
+<ol>
+<li><strong>Un encabezado que responda una pregunta</strong>: no &quot;Servicios&quot;, sino <code>Cuánto cuesta una limpieza facial en Valencia</code>.</li>
+<li><strong>Una respuesta corta y explícita</strong> justo debajo, citable tal cual.</li>
+<li><strong>Tres FAQs reales</strong>; con el bloque de FAQ salen además con datos estructurados (S10).</li>
+</ol>
+<p>Una página = un tema claro, encabezados que dicen algo, respuestas directas.</p>
+<hr>
+<h2 id="al-finalizar-conseguiremos">Al finalizar conseguiremos</h2>
+<ul>
+<li>Un mapa de keywords por proyecto.</li>
+<li>3-5 clusters bien definidos.</li>
+<li>Cada cluster conectado a una página o tipo de contenido.</li>
+<li>Una primera estrategia GEO.</li>
+</ul>
+<hr>
+<h2 id="si-no-lo-habe%C3%A9is-echo-para-la-pr%C3%B3xima">Si no lo habeéis echo: Para la próxima</h2>
+<ul>
+<li>Cerrar los 3-5 clusters.</li>
+<li>Ajustar al menos una página real con mejor intención de búsqueda.</li>
+<li>Redactar 3 FAQs útiles.</li>
+<li>Opcional: borrador de <code>llms.txt</code>.</li>
+</ul>
+<hr>
+<h2 id="enlaces">Enlaces</h2>
+<ul>
+<li><a href="developers.google.com/search">Google Search Central</a></li>
+<li><a href="search.google.com/search-console">Search Console</a></li>
+<li><a href="trends.google.com">Google Trends</a></li>
+<li><a href="answerthepublic.com">AnswerThePublic</a></li>
+<li><a href="perplexity.ai">Perplexity</a></li>
+<li><a href="gemini.google.com">Gemini</a></li>
+<li><a href="chatgpt.com">ChatGPT</a></li>
+</ul>
+
+</body>
+</html>
