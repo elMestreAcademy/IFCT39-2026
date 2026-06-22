@@ -31,6 +31,7 @@ Recopilación de todos los enlaces interesantes que han ido saliendo en las sesi
 - [El DOM explicado (GeeksForGeeks)](https://www.geeksforgeeks.org/html/javascript-html-dom/) (S01, S04)
 - [Diagrama de etiquetas semánticas](https://cwh-full-next-space.fra1.cdn.digitaloceanspaces.com/tutorial/html-semantic-tags/semantic-tags.png) (S03)
 - [Tutorial de CSS Comenzando con HTML + CSS](https://www.w3.org/Style/Examples/011/firstcss.es.html)
+- [Non Braking Spaces](https://recursivos.com/html/espacios-blanco)
 
 ## Herramientas de trabajo
 
