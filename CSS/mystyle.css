@@ -1,6 +1,8 @@
 body {
     color: purple;
-    background-color: #d8da3d
+    background-color: #20B7DB;
+    border: solid 36px white;
+    margin: 0
 }
 
 div {
@@ -12,11 +14,20 @@ h1 {
     background-color: white;
 }
 
-.publicidad {
-    color:blue;
-    border: solid 2px blue;
-    border-radius: 0.5rem;
+h1:hover {
+    transform: translateY(-5px);
+    background-color: #f0f0f0;
+    transition: all 0.3s ease;
+    color: red;
 }
+
+
+
+.publicidad {
+    color:#20B7DB;
+    border: solid 5px #30545C;
+    border-radius: 0.5rem;
+    background-color: #DB5D25;
 
 #paquito {
     color: aquamarine;
