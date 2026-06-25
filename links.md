@@ -48,6 +48,8 @@ Recopilación de todos los enlaces interesantes que han ido saliendo en las sesi
 - [Google Trends](https://trends.google.es/trends/) - tendencias de búsqueda (S05)
 - [AnswerThePublic](https://answerthepublic.com/) - preguntas que hace la gente (S05)
 - [Keyword Surfer (extensión)](https://surferseo.com/keyword-surfer-extension/) - volúmenes de búsqueda en el navegador (S05)
+- [Embudo de marketing](https://sproutsocial.com/es/glossary/marketing-funnel/)
+- [tofu-mofu-bofu](https://enosta.com/insights/maximize-seo-strategy-with-tofu-mofu-bofu)
 
 ## WordPress y SEO on-page
 
@@ -70,9 +72,9 @@ Recopilación de todos los enlaces interesantes que han ido saliendo en las sesi
 - [La deuda técnica, uno de los mayores lastres de la agilidad](https://www.itmastersmag.com/transformacion-digital/la-deuda-tecnica-uno-de-los-mayores-lastres-de-la-agilidad/) (S01)
 - [Cuadrantes de deuda técnica (imagen)](https://www.scrumio.com/wp-content/uploads/2023/09/cuadrantes-de-deuda-tecnica.jpg) (S01)
 - [El algoritmo de X "For You" (código en GitHub)](https://github.com/xai-org/x-algorithm) (S01)
-- [Navigating Cookie Consent Violations
-Across the Globe](https://www.usenix.org/system/files/usenixsecurity25-tang.pdf)
+- [Navigating Cookie Consent Violations Across the Globe](https://www.usenix.org/system/files/usenixsecurity25-tang.pdf)
 - [Steam Hardware Survey](https://store.steampowered.com/hwsurvey/Steam-Hardware-Software-Survey-Welcome-to-Steam)
+- [¿Qué es la Caché Web?](https://kokorodigital.com/cache-web/)
 
 ## Vídeos
 
@@ -82,7 +84,13 @@ Across the Globe](https://www.usenix.org/system/files/usenixsecurity25-tang.pdf)
 - [Canal de Jordi Maquiavello](https://www.youtube.com/@JordiMaquiavello) (S06)
 - [¿¿POR QUÉ TANTAS MEMORIAS??](https://www.youtube.com/watch?v=IwUq0RiUank)
 
-## El caso YouTube: caída de ingresos y vistas (deberes del profe, S01)
+## Articulos técnicos
+
+- [Render WEB](https://bytebytego.com/guides/how-does-the-browser-render-a-web-page/)
+- [Cache WEB](https://kokorodigital.com/cache-web/)
+- [Semantic web semantics vs. vector embedding](https://www.snee.com/bobdc.blog/2016/09/semantic-web-semantics-vs-vect.html)
+
+## El caso YouTube: caída de ingresos y vistas
 
 - [Google encadena dos trimestres de caída de ingresos publicitarios por YouTube](https://dircomfidencial.com/marketing-digital/google-encadena-dos-trimestres-consecutivos-en-caida-de-ingresos-publicitarios-por-el-arrastre-de-youtube-20230426-0404/)
 - [The real reason why our views went down (Reddit, r/PartneredYoutube)](https://www.reddit.com/r/PartneredYoutube/comments/1qbg725/well_folks_here_it_is_the_real_reason_why_our/)
