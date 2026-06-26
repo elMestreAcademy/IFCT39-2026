@@ -33,6 +33,7 @@ Recopilación de todos los enlaces interesantes que han ido saliendo en las sesi
 - [Tutorial de CSS Comenzando con HTML + CSS](https://www.w3.org/Style/Examples/011/firstcss.es.html)
 - [Non Braking Spaces](https://recursivos.com/html/espacios-blanco)
 - [como-elegir-colores-web](https://artilet.barcelona/blog/como-elegir-colores-web/)
+- [Sitemaps](https://online.visual-paradigm.com/es/diagrams/templates/site-map-diagram/travel-booking-sitemap/)
 
 ## Herramientas de trabajo
 
