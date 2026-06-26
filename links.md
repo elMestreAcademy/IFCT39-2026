@@ -44,6 +44,11 @@ Recopilación de todos los enlaces interesantes que han ido saliendo en las sesi
 - [Google Analytics](analytics.google.com])
 - [Google Search Console](search.google.com/search-console])
 
+### Imágenes
+
+- [squoosh (webs)](https://squoosh.app/editor)
+- [caesium (win)](https://saerasoft.com/caesium/)
+
 ## SEO y keywords
 
 - [Google Trends](https://trends.google.es/trends/) - tendencias de búsqueda (S05)
