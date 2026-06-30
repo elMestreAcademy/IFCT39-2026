@@ -34,6 +34,7 @@ Recopilación de todos los enlaces interesantes que han ido saliendo en las sesi
 - [Non Braking Spaces](https://recursivos.com/html/espacios-blanco)
 - [como-elegir-colores-web](https://artilet.barcelona/blog/como-elegir-colores-web/)
 - [Sitemaps](https://online.visual-paradigm.com/es/diagrams/templates/site-map-diagram/travel-booking-sitemap/)
+- [Anatomia de una URL SEO](https://www.desdelatrinchera.com/wp-content/uploads/2009/10/anatomy-of-a-url.jpg)
 
 ## Herramientas de trabajo
 
@@ -56,13 +57,22 @@ Recopilación de todos los enlaces interesantes que han ido saliendo en las sesi
 - [Keyword Surfer (extensión)](https://surferseo.com/keyword-surfer-extension/) - volúmenes de búsqueda en el navegador (S05)
 - [Embudo de marketing](https://sproutsocial.com/es/glossary/marketing-funnel/)
 - [tofu-mofu-bofu](https://enosta.com/insights/maximize-seo-strategy-with-tofu-mofu-bofu)
+- [ahrefs](https://ahrefs.com/es/pricing)
+- [semrush](https://www.semrush.com/)
+- [Google vs ChatGP](https://firstpagesage.com/wp-content/uploads/2026/06/chart-1.png)
 
 ## WordPress y SEO on-page
 
 - [Yoast SEO - guía de inicio](https://yoast.com/help/) (S06)
 - [Editor Gutenberg (WordPress.org)](https://wordpress.org/documentation/article/wordpress-editor/) (S06)
 - [Estructura de URLs en WordPress (Yoast)](https://yoast.com/help/changing-the-url-structure/) (S06)
--[Largest Contentful Paint](https://webenso.com/how-to-find-the-lcp-largest-contentful-paint-html-element/)
+- [Largest Contentful Paint](https://webenso.com/how-to-find-the-lcp-largest-contentful-paint-html-element/)
+
+## GEO y LLM
+
+- [Attention Is All You Need](https://arxiv.org/pdf/1706.03762)
+- [AI AI Bias: LLM Favor Their Own Generated Content](https://arxiv.org/html/2407.12856v1)
+- [LLMStxt](https://llmstxt.org/)
 
 ## Diseño web y color
 
