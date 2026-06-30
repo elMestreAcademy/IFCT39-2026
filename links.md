@@ -11,6 +11,20 @@ Recopilación de todos los enlaces interesantes que han ido saliendo en las sesi
 - [Glosario de Ricardo (Google Docs)](https://docs.google.com/document/d/1U-z1Tpf1642yGQuNww_1CWvqzJRhelYT)
 - [WordPress de prácticas](https://wp2.masterfactories.com) (acceso en `wordpress.md`)
 
+## Herramientas de trabajo
+
+- [Google Chrome](https://www.google.com/chrome)
+- [VS Code](https://code.visualstudio.com/)
+- [List of top 1200 CMS systems](https://gist.github.com/KathySmith/438b337a2a8317baf546)
+- [Site Kit by Google](https://sitekit.withgoogle.com)
+- [Google Analytics](https://analytics.google.com)
+- [Google Search Console](https://search.google.com/search-console)
+
+### Optimización de imágenes
+
+- [squoosh](https://squoosh.app/editor) - compresor online
+- [caesium](https://saerasoft.com/caesium/) - compresor para Windows
+
 ## Markdown
 
 - [Markdown Live Preview](https://markdownlivepreview.com/) - editor con vista previa en el navegador (S02, S05)
@@ -30,25 +44,9 @@ Recopilación de todos los enlaces interesantes que han ido saliendo en las sesi
 - [roadmap.sh](https://roadmap.sh/) y su [rama Frontend](https://roadmap.sh/frontend) - itinerarios de aprendizaje (S01, S02, S04)
 - [El DOM explicado (GeeksForGeeks)](https://www.geeksforgeeks.org/html/javascript-html-dom/) (S01, S04)
 - [Diagrama de etiquetas semánticas](https://cwh-full-next-space.fra1.cdn.digitaloceanspaces.com/tutorial/html-semantic-tags/semantic-tags.png) (S03)
-- [Tutorial de CSS Comenzando con HTML + CSS](https://www.w3.org/Style/Examples/011/firstcss.es.html)
-- [Non Braking Spaces](https://recursivos.com/html/espacios-blanco)
-- [como-elegir-colores-web](https://artilet.barcelona/blog/como-elegir-colores-web/)
-- [Sitemaps](https://online.visual-paradigm.com/es/diagrams/templates/site-map-diagram/travel-booking-sitemap/)
-- [Anatomia de una URL SEO](https://www.desdelatrinchera.com/wp-content/uploads/2009/10/anatomy-of-a-url.jpg)
-
-## Herramientas de trabajo
-
-- [Google Chrome](https://www.google.com/chrome)
-- [VS Code](https://code.visualstudio.com/)
-- [List of top 1200 CMS systems](https://gist.github.com/KathySmith/438b337a2a8317baf546)
-- [Site Kit by Google](sitekit.withgoogle.com])
-- [Google Analytics](analytics.google.com])
-- [Google Search Console](search.google.com/search-console])
-
-### Imágenes
-
-- [squoosh (webs)](https://squoosh.app/editor)
-- [caesium (win)](https://saerasoft.com/caesium/)
+- [Comenzando con HTML + CSS (W3C)](https://www.w3.org/Style/Examples/011/firstcss.es.html)
+- [Non-breaking spaces](https://recursivos.com/html/espacios-blanco) - espacios que no se parten
+- [Cómo elegir colores para una web](https://artilet.barcelona/blog/como-elegir-colores-web/)
 
 ## SEO y keywords
 
@@ -59,7 +57,9 @@ Recopilación de todos los enlaces interesantes que han ido saliendo en las sesi
 - [tofu-mofu-bofu](https://enosta.com/insights/maximize-seo-strategy-with-tofu-mofu-bofu)
 - [ahrefs](https://ahrefs.com/es/pricing)
 - [semrush](https://www.semrush.com/)
-- [Google vs ChatGP](https://firstpagesage.com/wp-content/uploads/2026/06/chart-1.png)
+- [Google vs ChatGPT (gráfica)](https://firstpagesage.com/wp-content/uploads/2026/06/chart-1.png)
+- [Sitemaps (plantilla visual)](https://online.visual-paradigm.com/es/diagrams/templates/site-map-diagram/travel-booking-sitemap/)
+- [Anatomía de una URL SEO (imagen)](https://www.desdelatrinchera.com/wp-content/uploads/2009/10/anatomy-of-a-url.jpg)
 
 ## WordPress y SEO on-page
 
@@ -71,7 +71,7 @@ Recopilación de todos los enlaces interesantes que han ido saliendo en las sesi
 ## GEO y LLM
 
 - [Attention Is All You Need](https://arxiv.org/pdf/1706.03762)
-- [AI AI Bias: LLM Favor Their Own Generated Content](https://arxiv.org/html/2407.12856v1)
+- [AI Bias: LLMs Favor Their Own Generated Content](https://arxiv.org/html/2407.12856v1)
 - [LLMStxt](https://llmstxt.org/)
 
 ## Diseño web y color
@@ -90,7 +90,9 @@ Recopilación de todos los enlaces interesantes que han ido saliendo en las sesi
 - [El algoritmo de X "For You" (código en GitHub)](https://github.com/xai-org/x-algorithm) (S01)
 - [Navigating Cookie Consent Violations Across the Globe](https://www.usenix.org/system/files/usenixsecurity25-tang.pdf)
 - [Steam Hardware Survey](https://store.steampowered.com/hwsurvey/Steam-Hardware-Software-Survey-Welcome-to-Steam)
-- [¿Qué es la Caché Web?](https://kokorodigital.com/cache-web/)
+- [Qué es la caché web](https://kokorodigital.com/cache-web/)
+- [Cómo renderiza el navegador una web](https://bytebytego.com/guides/how-does-the-browser-render-a-web-page/)
+- [Semantic web semantics vs. vector embedding](https://www.snee.com/bobdc.blog/2016/09/semantic-web-semantics-vs-vect.html)
 
 ## Vídeos
 
@@ -98,15 +100,9 @@ Recopilación de todos los enlaces interesantes que han ido saliendo en las sesi
 - [GEO: qué es y cómo posicionarte en ChatGPT, Gemini y Perplexity](https://www.youtube.com/watch?v=RHh5LpSfL80) (S01)
 - [What is GEO (Generative Engine Optimization)?](https://www.youtube.com/watch?v=Nf8z0vtIkMw) (S01)
 - [Canal de Jordi Maquiavello](https://www.youtube.com/@JordiMaquiavello) (S06)
-- [¿¿POR QUÉ TANTAS MEMORIAS??](https://www.youtube.com/watch?v=IwUq0RiUank)
+- [Por qué tantas memorias (tipos de RAM)](https://www.youtube.com/watch?v=IwUq0RiUank)
 
-## Articulos técnicos
-
-- [Render WEB](https://bytebytego.com/guides/how-does-the-browser-render-a-web-page/)
-- [Cache WEB](https://kokorodigital.com/cache-web/)
-- [Semantic web semantics vs. vector embedding](https://www.snee.com/bobdc.blog/2016/09/semantic-web-semantics-vs-vect.html)
-
-## El caso YouTube: caída de ingresos y vistas
+### El caso YouTube: caída de ingresos y vistas
 
 - [Google encadena dos trimestres de caída de ingresos publicitarios por YouTube](https://dircomfidencial.com/marketing-digital/google-encadena-dos-trimestres-consecutivos-en-caida-de-ingresos-publicitarios-por-el-arrastre-de-youtube-20230426-0404/)
 - [The real reason why our views went down (Reddit, r/PartneredYoutube)](https://www.reddit.com/r/PartneredYoutube/comments/1qbg725/well_folks_here_it_is_the_real_reason_why_our/)
