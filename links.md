@@ -69,6 +69,11 @@ Recopilación de todos los enlaces interesantes que han ido saliendo en las sesi
 - [Estructura de URLs en WordPress (Yoast)](https://yoast.com/help/changing-the-url-structure/) (S06)
 - [Largest Contentful Paint](https://webenso.com/how-to-find-the-lcp-largest-contentful-paint-html-element/)
 
+## SEM
+
+- [SEO-VS-SEM 1](https://www.kreativamkdigital.com/wp-content/uploads/2024/04/Grafica-de-SEO-VS-SEM-1024x790.webp)
+- [SEO-VS-SEM 2](https://firstpagesage.com/sem/seo-vs-sem-which-is-better-fc/)
+
 ## GEO y LLM
 
 - [Attention Is All You Need](https://arxiv.org/pdf/1706.03762)
@@ -102,6 +107,7 @@ Recopilación de todos los enlaces interesantes que han ido saliendo en las sesi
 - [What is GEO (Generative Engine Optimization)?](https://www.youtube.com/watch?v=Nf8z0vtIkMw) (S01)
 - [Canal de Jordi Maquiavello](https://www.youtube.com/@JordiMaquiavello) (S06)
 - [Por qué tantas memorias (tipos de RAM)](https://www.youtube.com/watch?v=IwUq0RiUank)
+- [Anuncios Falsos](https://www.youtube.com/watch?v=_rpXMlF8O-s)
 
 ### El caso YouTube: caída de ingresos y vistas
 

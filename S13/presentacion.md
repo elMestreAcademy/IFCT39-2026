@@ -180,9 +180,9 @@ Reglas básicas:
 
 > Call To Action
 
---
+---
 
-Ejemplos de diferenciales:
+## Ejemplos de diferenciales:
 
 | Servicio         |                  Diferencial                   |
 | :--------------- | :--------------------------------------------: |

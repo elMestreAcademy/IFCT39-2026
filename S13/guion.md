@@ -19,15 +19,15 @@
 
 ## Cronograma
 
-| Tramo     | Min | Bloque                                                              |
+| Tramo     | Min | Bloque                                                             |
 | --------- | --- | ------------------------------------------------------------------ |
 | 0:00-0:15 | 15  | Apertura: checkpoint S11 (mapa de keywords) y objetivo del día     |
 | 0:15-0:35 | 20  | Repaso relámpago: jerarquía, subasta y Quality Score               |
 | 0:35-1:05 | 30  | Crear la cuenta en Modo Experto SIN tarjeta (todos a la vez)       |
 | 1:05-1:35 | 30  | Tour por la interfaz y Planificador de Palabras Clave              |
-| 1:35-1:45 | 10  | Descanso                                                            |
+| 1:35-1:45 | 10  | Descanso                                                           |
 | 1:45-2:35 | 50  | Hands-on: pasar sus clusters a campañas y grupos (borrador)        |
-| 2:35-2:45 | 10  | Descanso                                                            |
+| 2:35-2:45 | 10  | Descanso                                                           |
 | 2:45-3:15 | 30  | Concordancias y negativas en la práctica, sobre su cuenta          |
 | 3:15-3:45 | 30  | Redactar el primer anuncio de búsqueda                             |
 | 3:45-4:00 | 15  | Cierre: cómo no gastar sin querer, deberes y enlace con la próxima |
@@ -120,10 +120,10 @@ El grueso de la sesión. Cada alumno pasa su mapa de S11 a estructura real, en b
 
 Plantilla que van rellenando mientras montan la cuenta:
 
-| Campaña (cluster)   | Grupo de anuncios (intención) | Keywords del grupo               | Concordancia | Landing de destino          |
-| ------------------- | ----------------------------- | -------------------------------- | ------------ | --------------------------- |
-| Servicio 1          | Contratar servicio 1          | `servicio 1 ciudad`, precio      | Frase        | Landing de servicio 1       |
-| Servicio 2          | Comparar servicio 2           | `mejor servicio 2`, opiniones    | Frase        | Página de servicio 2        |
+| Campaña (cluster) | Grupo de anuncios (intención) | Keywords del grupo            | Concordancia | Landing de destino    |
+| ----------------- | ----------------------------- | ----------------------------- | ------------ | --------------------- |
+| Servicio 1        | Contratar servicio 1          | `servicio 1 ciudad`, precio   | Frase        | Landing de servicio 1 |
+| Servicio 2        | Comparar servicio 2           | `mejor servicio 2`, opiniones | Frase        | Página de servicio 2  |
 
 Objetivo realista de hoy: **una campaña con 2 o 3 grupos**, cada grupo con 5-10 keywords. Todo en borrador o pausa. Que nadie active nada.
 
@@ -170,13 +170,13 @@ Reglas que aplican al escribir, no solo al oír:
 
 Ejemplos de diferencial por si se atascan:
 
-| Servicio         | Diferencial                    |
-| ---------------- | ------------------------------ |
-| Academia online  | Primera clase gratis           |
-| Fontanero        | Disponible en menos de 1 hora  |
-| Psicólogo        | Más de 15 años de experiencia  |
-| E-commerce       | Envío gratis en 24h            |
-| Consultor SEO    | Auditoría inicial gratuita     |
+| Servicio        | Diferencial                   |
+| --------------- | ----------------------------- |
+| Academia online | Primera clase gratis          |
+| Fontanero       | Disponible en menos de 1 hora |
+| Psicólogo       | Más de 15 años de experiencia |
+| E-commerce      | Envío gratis en 24h           |
+| Consultor SEO   | Auditoría inicial gratuita    |
 
 Salen con **un anuncio escrito** por, al menos, un grupo.
 
