@@ -60,6 +60,7 @@ Recopilación de todos los enlaces interesantes que han ido saliendo en las sesi
 - [Google vs ChatGPT (gráfica)](https://firstpagesage.com/wp-content/uploads/2026/06/chart-1.png)
 - [Sitemaps (plantilla visual)](https://online.visual-paradigm.com/es/diagrams/templates/site-map-diagram/travel-booking-sitemap/)
 - [Anatomía de una URL SEO (imagen)](https://www.desdelatrinchera.com/wp-content/uploads/2009/10/anatomy-of-a-url.jpg)
+- [origen de usuarios](https://gerickdigitalstrategy.com/blog/google-analytics-4/chatgpt-traffic-google-analytics-4/)
 
 ## WordPress y SEO on-page
 
